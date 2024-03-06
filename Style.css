@@ -1,5 +1,35 @@
 h2{
+    border-radius: 25cap;
+    display: inline-block;
+    border:1px solid black;
+    text-align: center;
+    background-color:rgb(231, 184, 243);
+    font-weight: bold;
+    margin-right: 65%;
+    /* position: fixed; */
+}
+/* @media (min-width:319px) and (max-width:667px){
+    body{background-color: rgb(255, 248, 245);}
+} */
+/* @media (min-width:668px) and (max-width:1200px) {
+    body{background-color: powderblue;}
+}
+@media (min-width:1201px) and (max-width:1600px){
+    body{background-color: seagreen;}
+}
+@media  (min-width:1601px){
+    body{background-color: rgb(209, 255, 116);}
+} */
+#f2p{
+    
+    margin-right: 65%;
+}
+body > div.d2{
+    
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
     border-radius: 5%;
-    background-color: lightgreen;
-    padding: 30px;
+    margin-right:65%;
+    background-color: thistle;
 }
