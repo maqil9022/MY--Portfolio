@@ -1,25 +1,13 @@
 #mt{
-    border-radius: 10px;
-    display: inline;
     border:none;
     text-align: center;
-    background-color:rgb(231, 184, 243);
-    margin: 0%;
+    margin: 25px;
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
     float: left;
 }
 
-/* @media (min-width:319px) and (max-width:667px){
-    body{background-color: rgb(255, 248, 245);}
-} */
-/* @media (min-width:668px) and (max-width:1200px) {
-    body{background-color: powderblue;}
-}
-@media (min-width:1201px) and (max-width:1600px){
-    body{background-color: seagreen;}
-}
-@media  (min-width:1601px){
-    body{background-color: rgb(209, 255, 116);}
-} */
+
 
 .d2{
     display: flex;
@@ -31,49 +19,87 @@
     width: 280px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(245, 231, 231);
 }
-#mt{
-    font-size: 5rem;
-    font-family: "Poppins", sans-serif;
-    float: left;
-}
+
 #p1{
     flex-shrink: 0;
     flex-grow: 0;
     font-weight: bold;
     font-size: 20px;
     float: right;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
     
     
 }
-#container2{
-    display: inline-flex;
-    flex: 1;
-}
-.container{
+#heading{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    border:1px solid black;
+    background-color: rgb(240, 228, 207);
+    }
+#projects{
+    padding: 10px;
+    padding-top: 30px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
+    width: 30%;
+    background-color: rgb(233, 214, 181);
+    justify-content: top;
 }
-#img1{
-    height: 80px;
+.img{
+    height: 70px;
     border-radius: 10px;
 }
-@media (max-width: 680px){
+.para{
+    width: 75%;
+    font-weight: bold;
+}
+#both{
+    display:inline-flex;
+}
+#about{
+    width: 70%;
+    background-color: rgb(230, 214, 186);
+    
+}
+
+.image{
+    height: 400px;
+    width: 60%;
+    padding: 4%;
+    
+}
+@media (max-width: 960px){
     #mt{
         font-size: 3.5rem;
         text-align: center;
+    }
+    #both{
+        display: inline-flex;
+        flex-direction: column;
     }
     #p1{
         font-size: 20px;
         text-align: center;
     }
-    .container{
+    #projects{
         gap: 20px;
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        text-align: center;
+        
     }
-    #container2{
+    #heading{
         display: flex;
         flex-direction: column;
     }
