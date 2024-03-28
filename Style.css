@@ -76,7 +76,7 @@
 }
 @media (max-width: 1030px){
     #mt{
-        font-size: 3.5rem;
+        font-size: 4rem;
         text-align: center;
     }
     #both{
@@ -84,7 +84,7 @@
         flex-direction: column;
     }
     #p1{
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
     }
     #projects{
@@ -107,4 +107,9 @@
    #about{
        width:100%;
    }
+    .para{
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
