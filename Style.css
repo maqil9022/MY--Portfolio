@@ -74,7 +74,7 @@
     padding: 4%;
     
 }
-@media (max-width: 960px){
+@media (max-width: 680px){
     #mt{
         font-size: 3.5rem;
         text-align: center;
@@ -97,11 +97,14 @@
         margin-bottom: 10px;
         align-items: center;
         text-align: center;
+        width:100%;
         
     }
     #heading{
         display: flex;
         flex-direction: column;
     }
-   
+   #about{
+       width:100%;
+   }
 }
